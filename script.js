@@ -30,3 +30,19 @@ function DarkMode() {
         alreadydark.classList.add("bg-black");
     }
 }
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var navbar = document.querySelector('.navbar-collapse');
+  
+    var wasCollapsed = false;
+  
+    window.addEventListener('resize', function () {
+      if (navbar.classList.contains('show') && !wasCollapsed) {
+        console.log('Navbar collapsed due to window size shrinking');
+        wasCollapsed = true;
+      } else {
+        wasCollapsed = false;
+      }
+    });
+  });
