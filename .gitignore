@@ -23,6 +23,7 @@ fabric.properties
 *.nar
 *.ear
 *.zip
+!Files/ScarabShooter.zip
 *.tar.gz
 *.rar
 hs_err_pid*
