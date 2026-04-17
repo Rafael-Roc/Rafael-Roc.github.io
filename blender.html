@@ -1,250 +1,172 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <title>Portfolio Rafael-Blender</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="script.js"></script>
     <link rel="stylesheet" href="inline.css">
 </head>
 
-<body style="max-width: 100%; overflow-x: hidden;">
-    <!--Navbar-->
-    <nav id="AlrDark" class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top justify-content-center">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Rafael Alcazar Paradas</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <!-- Links -->
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#Projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blender.html#Catalogus">Catalogus</a>
-                    </li>
-                    <li>
-                        <div id="Buttonbg" class="container bg-transparent">
-                            <button id="button" type="button" class="btn btn-dark" onclick="DarkMode()">Dark
-                                Mode</button>
-                        </div>
-                    </li>
-                </ul>
-                <ul class="navbar-nav iconClass">
-                    <li class="nav-item px-2">
-                        <a href="https://www.linkedin.com/in/rafael-alcazar-paradas-52062626b/" target="_blank"
-                            style="text-decoration: none; color: white;">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white"
-                                class="bi bi-linkedin" viewBox="0 0 16 16">
-                                <path
-                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-                            </svg></a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="https://github.com/Rafael-Roc" target="_blank"
-                            style="text-decoration: none; color: white;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-github"
-                            viewBox="0 0 16 16">
-                            <path
-                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                        </svg></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body style="max-width: 100%; overflow-x: hidden; padding-top: 70px;">
 
-    <div class="container justify-content-center d-flex HeaderClass">
-        <h1>Blender</h2>
-    </div>
 
-    <div class="row p-4">
-        <div class="col-xl-5 container">
-            <p>Een jaar geleden stak ik mijn eerste virtuele teen in de wereld van Blender. Sinds die tijd heeft het
-                programma een belangrijke rol in mijn leven ingenomen. Hoewel ik het niet dagelijks gebruik, is het wel
-                een activiteit waar ik regelmatig naar terugkeer en waar ik enorm van geniet.<br>
-                <br>
-                Blender fascineert me om verschillende redenen. Allereerst is er de enorme vrijheid die het biedt. Het
-                is verbazingwekkend om te bedenken dat je met slechts een paar klikken en toetsaanslagen vrijwel alles
-                kunt creëren wat je maar wilt. Van simpele objecten tot complexe, gedetailleerde landschappen; alles
-                ligt binnen handbereik.<br>
-                <br>
-                Daarnaast heeft Blender me geduld en doorzettingsvermogen bijgebracht. Soms loop ik vast bij het
-                oplossen van een probleem of het perfectioneren van een detail, maar dat hoort erbij. Door telkens weer
-                door te zetten, leer ik niet alleen hoe ik de obstakels kan overwinnen, maar groei ik ook als
-                ontwerper.<br>
-                <br>
-                Er gaat niets boven het gevoel van trots en voldoening wanneer een project tot leven komt en precies zo
-                wordt
-                als ik had gehoopt. Het is een gevoel dat me keer op keer terugbrengt naar mijn computer, zelfs als het
-                soms een tijdje duurt voordat ik weer aan de slag ga.<br>
-                <br>
-                Hoewel ik het misschien niet dagelijks doe, is Blender toch een constante bron van plezier en
-                creativiteit in mijn leven geworden.
-            </p>
-        </div>
-        <div class="col-xl-5 container rounded-1">
-            <img src="Blender/Photos/BioshockBigdaddy.png" class="card-img-top mx-auto d-block" alt="Rafael">
-            <p>[ Replica van de big daddy enemy van bioshock gemaakt in blender door mij ]</p>
+<!--Navbar (nauwelijks aangepast)-->
+<nav class="navbar navbar-expand-sm fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Rafael Alcazar Paradas</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#Projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="blender.html">Catalogus</a></li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="https://linkedin.com" target="_blank">
+                        <i class="bi bi-linkedin fs-4"></i>
+                    </a>
+                </li>
+                <li class="nav-item px-2">
+                    <a class="nav-link" href="https://github.com" target="_blank">
+                        <i class="bi bi-github fs-4"></i>
+                    </a>
+                </li>
+            </ul>
+
         </div>
     </div>
+</nav>
 
-    <div id="AlrDark" class="py-2 bg-dark">
-        <p id="Catalogus" class="m-1 text-light d-flex justify-content-center">Catalogus</p>
+<!-- Header -->
+<div class="container text-center py-5">
+    <h1 class="fw-bold">Blender</h1>
+    <p class="text-muted">3D Modeling • Hard Surface Design • Personal Exploration</p>
+</div>
+
+<!-- Intro tekst (professioneler herschreven) -->
+<div class="row p-4">
+    <div class="col-xl-5 container">
+        <p class="lh-lg">
+            Ongeveer een jaar geleden ben ik begonnen met het verkennen van Blender als creatieve tool. Sindsdien
+            is het uitgegroeid tot een vaste component binnen mijn persoonlijke projecten en technische ontwikkeling.
+            <br><br>
+            Wat mij aanspreekt in Blender is de combinatie van technische precisie en creatieve vrijheid. Het stelt
+            me in staat om ideeën om te zetten naar tastbare 3D assets, variërend van eenvoudige modellen tot meer
+            complexe hard-surface ontwerpen.
+            <br><br>
+            Tijdens dit proces heb ik niet alleen mijn vaardigheden in modelleren en compositie verbeterd, maar ook
+            mijn probleemoplossend vermogen en oog voor detail verder ontwikkeld.
+            <br><br>
+            Onderstaande selectie toont een aantal projecten waar ik met plezier aan heb gewerkt.
+        </p>
     </div>
 
-    <div class="row row-cols-1 p-4 row-cols-md-3 g-4 justify-content-center">
-        <div class="col ">
-            <div class="card">
-                <img src="Blender/Photos/Rifle.png" class="card-img-top" alt="Rifle">
-                <div class="card-body">
-                    <h5 class="card-title">Rifle</h5>
-                    <button type="button" class="btn btn-warning">
-                        <a href="Blender/Blend files/Rifle.blend" style="text-decoration: none; color: white;">
-                            <strong>Rifle.blend</strong>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                                style="vertical-align: -1px;" class="bi bi-download" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                            </svg>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Blender/Photos/Barrel.png" class="card-img-top" alt="barrel">
-                <div class="card-body">
-                    <h5 class="card-title">Barrel</h5>
-                    <button type="button" class="btn btn-warning">
-                        <!--<a href="Barrel.blend" style="text-decoration: none; color: white;">-->
-                            <strong>Model not available :[</strong>
-                            <!--<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                                style="vertical-align: -1px;" class="bi bi-download" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                            </svg>-->
-                        <!--</a>-->
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Blender/Photos/Revolver.gif" class="card-img-top" alt="revolver">
-                <div class="card-body">
-                    <h5 class="card-title">Revolver</h5>
-                    <button type="button" class="btn btn-warning">
-                        <a href="Blender/Blend files/Revolver.blend" style="text-decoration: none; color: white;">
-                            <strong>Revolver.blend</strong>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                                style="vertical-align: -1px;" class="bi bi-download" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                            </svg>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Blender/Photos/AlienRifle.gif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">AlienRifle</h5>
-                    <button type="button" class="btn btn-warning">
-                        <a href="Blender/Blend files/" style="text-decoration: none; color: white;">
-                            <strong>AlienRifle.blend</strong>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                                style="vertical-align: -1px;" class="bi bi-download" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                            </svg>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Blender/Photos/Shotgun.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Shotgun</h5>
-                    <button type="button" class="btn btn-warning">
-                        <a href="Blender/Photos/Shotgun.png" style="text-decoration: none; color: white;">
-                            <strong>Shotgun.blend</strong>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                                style="vertical-align: -1px;" class="bi bi-download" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                            </svg>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Blender/Photos/Donut.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Donut</h5>
-                    <button type="button" class="btn btn-warning">
-                        <a href="Blender/Blend files/Donut.blend" style="text-decoration: none; color: white;">
-                            <strong>Donut.blend</strong>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                                style="vertical-align: -1px;" class="bi bi-download" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                            </svg>
-                        </a>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="Blender/Photos/ComputerChipSpider.gif" class="card-img-top" alt="ChipSpider">
-                <div class="card-body">
-                    <h5 class="card-title">ComputerChipSpider</h5>
-                    <button type="button" class="btn btn-warning">
-                        <a href="Blender/Blend files/ComputerChipSpider.blend" style="text-decoration: none; color: white;">
-                            <strong>ComputerChipSpider.blend</strong>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
-                                style="vertical-align: -1px;" class="bi bi-download" viewBox="0 0 16 16">
-                                <path
-                                    d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
-                                <path
-                                    d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
-                            </svg>
-                        </a>
-                    </button>
+    <div class="col-xl-5 container text-center">
+        <img src="Blender/Photos/BioshockBigdaddy.png"
+            class="card-img-top mx-auto d-block rounded" alt="Big Daddy">
+        <p class="text-muted mt-2">
+            Replica van de Big Daddy (Bioshock) – volledig gemodelleerd in Blender
+        </p>
+    </div>
+</div>
 
-                </div>
+<!-- Catalogus -->
+<div class="py-2 bg-dark">
+    <p id="Catalogus" class="m-1 text-light d-flex justify-content-center">Catalogus</p>
+</div>
+
+<!-- Cards (structuur behouden) -->
+<div class="row row-cols-1 p-4 row-cols-md-3 g-4 justify-content-center">
+
+    <div class="col">
+        <div class="card">
+            <img src="Blender/Photos/Rifle.png" class="card-img-top" alt="Rifle">
+            <div class="card-body">
+                <h5 class="card-title">Rifle</h5>
+                <a href="Blender/Blend files/Rifle.blend" class="btn btn-info text-white">
+                    <strong>Rifle.blend</strong>
+                </a>
             </div>
         </div>
     </div>
+
+    <div class="col">
+        <div class="card">
+            <img src="Blender/Photos/new_revolver.gif" class="card-img-top" alt="revolver">
+            <div class="card-body">
+                <h5 class="card-title">Revolver</h5>
+                <a href="Blender/Blend files/Revolver2.0.blend" class="btn btn-info text-white">
+                    <strong>Revolver.blend</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+            <img src="Blender/Photos/AlienRifle.gif" class="card-img-top" alt="Alien Rifle">
+            <div class="card-body">
+                <h5 class="card-title">AlienRifle</h5>
+                <a href="#" class="btn btn-secondary disabled">
+                    <strong>Unavailable</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+            <img src="Blender/Photos/Shotgun.png" class="card-img-top" alt="Shotgun">
+            <div class="card-body">
+                <h5 class="card-title">Shotgun</h5>
+                <a href="Blender/Photos/Shotgun.png" class="btn btn-info text-white">
+                    <strong>View</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+            <img src="Blender/Photos/Donut.png" class="card-img-top" alt="Donut">
+            <div class="card-body">
+                <h5 class="card-title">Donut</h5>
+                <a href="Blender/Blend files/Donut.blend" class="btn btn-info text-white">
+                    <strong>Donut.blend</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <div class="card">
+            <img src="Blender/Photos/ComputerChipSpider.gif" class="card-img-top" alt="ChipSpider">
+            <div class="card-body">
+                <h5 class="card-title">ComputerChipSpider</h5>
+                <a href="Blender/Blend files/ComputerChipSpider.blend" class="btn btn-info text-white">
+                    <strong>ComputerChipSpider.blend</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
 
 </body>
-
 </html>

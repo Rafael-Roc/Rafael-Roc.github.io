@@ -1,3 +1,88 @@
+:root {
+    --bg: #0f1115;
+    --bg-soft: #151923;
+    --card: #1b2230;
+
+    --primary: #159384;
+    --secondary: #14b8a6;
+
+    --text: #e6e6e6;
+    --muted: #a7a7a7;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+}
+.navbar {
+    background: rgba(10, 12, 18, 0.9) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar-brand {
+    color: #14b8a6 !important;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #e6e6e6 !important;
+    opacity: 0.8;
+    transition: 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #14b8a6 !important;
+    opacity: 1;
+}
+
+.iconClass {
+    display: flex;
+    align-items: center;
+}
+.card {
+    background: var(--card);
+    color: var(--text);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-body {
+    background: var(--card);
+}
+
+.card-title {
+    color: var(--text);
+}
+
+.card-text {
+    color: var(--muted);
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    border-color: var(--secondary);
+}
+
+.btn-teal {
+    background: var(--primary);
+    color: #0b0f14;
+    border: none;
+    transition: 0.2s ease;
+}
+
+.btn-teal:hover {
+    background: #0ea5a0;
+    color: #0b0f14;
+}
+
+.btn-teal:active,
+.btn-teal:focus,
+.btn-teal:focus-visible {
+    background: #0c8f88 !important;
+    color: #0b0f14 !important;
+    box-shadow: 0 0 0 0.25rem rgba(20, 184, 166, 0.25);
+}
 .iconClass{
   position: absolute; 
   right: 1%;
